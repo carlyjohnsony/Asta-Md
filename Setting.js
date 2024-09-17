@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
+global.owner = process.env.OWNER_NUMBER || '260776642930' ;
 global.mongodb = process.env.MONGODB_URI || "" ; 
 global.port=5000  ;
 global.audio = '' ; 
@@ -10,7 +10,7 @@ global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
 global.email = 'astromedia0010@outlook.com' ; 
 global.github = 'https://github.com/Astropeda/Asta-Md' ;
 global.location = 'Nigeria Lagos' ;
-global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
+global.timezone  = process.env.TIME_ZONE || 'Lusaka/Zambia'
 global.gurl = '' ; 
 global.sudo =  process.env.SUDO || "2348039607375" ;
 global.devs = "2348039607375"; //Dont change it
@@ -22,16 +22,16 @@ global.website = '' ;
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || '',
-  botname: process.env.BOT_NAME || 'Asta-Md',
-  ownername:  process.env.OWNER_NAME || `Astro`,
-  author:  process.env.PACK_AUTHER || 'Astro', 
-  auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "Asta-Md" , 
-  autoreaction: process.env.AUTO_REACTION || 'true',
+  botname: process.env.BOT_NAME || 'La Flame🔥',
+  ownername:  process.env.OWNER_NAME || `Nipsy💋`,
+  author:  process.env.PACK_AUTHER || 'Nipsy📍', 
+  auto_read_status : process.env.AUTO_READ_STATUS || 'true',
+  packname:  process.env.PACK_NAME || "created by" , 
+  autoreaction: process.env.AUTO_REACTION || 'false',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true', 
   antifake :   process.env.FAKE_COUNTRY_CODE ||'212',
-  readmessage: process.env.READ_MESSAGE || 'true',
+  readmessage: process.env.READ_MESSAGE || 'false',
   HANDLERS: process.env.PREFIX || '.',
   warncount : process.env.WARN_COUNT || 2,
   disablepm: process.env.DISABLE_PM || "false",
